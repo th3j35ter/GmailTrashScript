@@ -10,7 +10,7 @@ namespace GmailDelete
     {
         // If modifying these scopes, delete your previously saved credentials (token.json).
         static string[] Scopes = { GmailService.Scope.GmailModify };
-        static string ApplicationName = "Gmail API Trash Example";
+        static string ApplicationName = "Gmail API Trash Script";
 
         static void Main(string[] args)
         {
