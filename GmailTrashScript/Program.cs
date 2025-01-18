@@ -17,7 +17,9 @@ namespace GmailDelete
             var service = GetGmailService();
 
             // Replace this with the sender you want to target
-            string senderEmail = "no-reply@twitch.tv";
+            Console.WriteLine("Enter email:");
+            string senderEmail = Console.ReadLine();
+            
             
             TrashAllFromSender(service, senderEmail);
         }
